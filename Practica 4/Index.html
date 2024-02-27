@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 4</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>producto</th>
+            <th>precio</th>
+            <th>stock</th>
+        </tr>
+        <tr>
+            <td id="1_Nombre">Televisor</td>
+            <td id="1_Precio">300.00</td>
+            <td id="1_Stock">10</td>
+        </tr>
+        <tr>
+            <td id="2_Nombre">Labtop</td>
+            <td id="2_Precio">200.00</td>
+            <td id="2_Stock">8</td>
+        </tr>
+        <tr>
+            <td id="3_Nombre">Smartphones</td>
+            <td id="3_Precio">150.00</td>
+            <td id="3_Stock">20</td>
+        </tr>
+        <tr>
+            <td id="4_Nombre">Misc</td>
+            <td id="4_Precio">20.00</td>
+            <td id="4_Stock">47</td>
+        </tr>
+    </table>
+    <br>
+    <h2>ordenar</h2>
+    <br>
+    
+    <label for="">Televisor</label>
+    <input type="number" name="teleCantidad" id="1_Comprados"> <br>
+    <label for="">Labtop</label>
+    <input type="number" name="labtop" id="2_Comprados"> <br>
+    <label for="">Smartphones</label>
+    <input type="number" name="phone" id="3_Comprados"> <br>
+    <label for="">Accesorios</label>
+    <input type="number" name="misc" id="4_Comprados"> <br>
+    
+    <br>
+    <input type="button" value="continuar" onclick="evaluar()"> <br>
+
+    <h2>orden final</h2>
+    <br>
+
+    <label for="" id="orden"></label>
+</body>
+</html>
+
+<script src="./main.js"></script>
