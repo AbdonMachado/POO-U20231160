@@ -34,7 +34,7 @@ class Producto{
 }
 
 
-class Televisor extends Producto{
+class Electronico extends Producto{
     constructor(nombre, precio, cantidad, tipo){
         super(nombre, precio, cantidad)
         this.tipo = tipo
@@ -89,7 +89,7 @@ function evaluar(){
 
     for (let i = 1; i <= 4; i++) {
 
-        orden = new Televisor
+        orden = new Electronico
 
         let current = i.toString()
     
