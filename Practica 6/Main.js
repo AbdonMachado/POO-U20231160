@@ -20,14 +20,14 @@ class Pasto extends Cubo {
 class Diamante extends Cubo {
     ejecutar(){
         cuboImg.setAttribute('src',"https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c8/Block_of_Diamond_JE5_BE3.png")
-        document.getElementById("out").innerText = "El bloque de madera da 9 diamantes"
+        document.getElementById("out").innerText = "El bloque de diamante da 9 diamantes"
     }
 }
 
 class Carbon extends Cubo {
     ejecutar(){
         cuboImg.setAttribute('src',"https://minecraft.wiki/images/Block_of_Coal_JE3_BE2.png")
-        document.getElementById("out").innerText = "El bloque de madera da 9 de carbon"
+        document.getElementById("out").innerText = "El bloque de carbon da 9 de carbon"
     }
 }
 
