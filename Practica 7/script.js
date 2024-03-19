@@ -62,7 +62,7 @@ class Mob{
 
 
 zombie = new Mob
-zombie.Hp = 200
+zombie.Hp = 100
 zombie.name = "zombi"
 zombie.write()
 
